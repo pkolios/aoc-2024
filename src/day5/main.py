@@ -114,4 +114,3 @@ def read_input() -> tuple[Sequence[tuple[int, ...]], Sequence[tuple[int, ...]]]:
 if __name__ == "__main__":
     print("Part 1:", part1(*read_input()))
     print("Part 2:", part2(*read_input()))
-    read_input()
