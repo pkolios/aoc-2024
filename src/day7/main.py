@@ -5,9 +5,9 @@ from itertools import product
 import operator as op
 
 
-type TestValue = int
-type Numbers = list[int]
-type Equation = tuple[TestValue, Numbers]
+TestValue = int
+Numbers = list[int]
+Equation = tuple[TestValue, Numbers]
 
 
 def can_be_combined(equation: Equation, ops: Iterable[Callable]) -> bool:
